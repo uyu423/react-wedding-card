@@ -9,12 +9,12 @@ const gallery = [
 
 export default {
   global: {
-    url: 'https://luckyyowu.tistory.com',
+    url: 'https://uyu423.github.io/react-wedding-card/',
     comment: {
       enable: true,
       facebookAppId: '1535680996513864',
     },
-    googleMapAPIKey: '',
+    googleMapAPIKey: 'AIzaSyDSjYdBUN_NDRJQShxs0ugvMBV2goZvT2o',
   },
   wedding: {
     place: {

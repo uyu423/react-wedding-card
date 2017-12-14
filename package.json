@@ -1,9 +1,11 @@
 {
   "name": "wedding",
+  "homepage": "https://uyu423.github.io/react-wedding-card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0-beta.2",
+    "gh-pages": "^1.1.0",
     "moment": "^2.19.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -14,6 +16,8 @@
     "reactstrap": "^5.0.0-alpha.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
