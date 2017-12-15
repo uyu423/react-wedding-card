@@ -3,6 +3,7 @@ import Profile from './Profile';
 import Gallery from './Gallery';
 import Place from './Place';
 import Comment from './Comment';
+import Footer from './Footer';
 
 export default {
   Header,
@@ -10,4 +11,5 @@ export default {
   Gallery,
   Place,
   Comment,
+  Footer,
 };

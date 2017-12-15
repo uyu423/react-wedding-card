@@ -1,13 +1,17 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import config from '../config';
+import {
+  Row,
+  Col,
+} from 'reactstrap';
 
-export default class Gallery extends React.Component {
-  render() {
-    return (
-      <div>
-        <ImageGallery items={config.image.gallery} />
-      </div>
-    );
-  }
+export default function Gallery(props) {
+  const { image } = props.config;
+  return (
+    <Row className="mb-5">
+      <Col>
+        <ImageGallery items={image.gallery} />
+      </Col>
+    </Row>
+  );
 }

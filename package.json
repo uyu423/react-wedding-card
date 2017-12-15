@@ -1,7 +1,13 @@
 {
-  "name": "wedding",
+  "name": "react-wedding-card",
+  "description": "Simple Wedding Card by React.js",
   "homepage": "https://uyu423.github.io/react-wedding-card",
-  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyu423/react-wedding-card.git"
+  },
+  "author": "Yu Yongwoo",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0-beta.2",
@@ -9,8 +15,9 @@
     "moment": "^2.19.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-facebook": "^4.1.1",
+    "react-fontawesome": "^1.6.1",
     "react-google-maps": "^9.4.2",
+    "react-helmet": "^5.2.0",
     "react-image-gallery": "^0.8.6",
     "react-scripts": "1.0.17",
     "reactstrap": "^5.0.0-alpha.4"

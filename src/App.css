@@ -1,34 +1,52 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-body {
-  font-family: 'Nanum Myeongjo';
+
+.nav-button {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-.App {
-  text-align: center;
+.btn-kakao {
+  background-color: #ffee33;
+  border-color: #ffee33;
+  color: black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.btn-naver {
+  background-color: #1ec545;
+  border-color: #1ec545;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.profile-image {
+  width: 90%;
 }
 
-.App-intro {
-  font-size: large;
+.app {
+  text-align: center;
+  font-family: 'Nanum Myeongjo';
+  /*font-family: 'Noto Sans KR', sans-serif;*/
+  word-wrap: break-word;
+  word-break: keep-all;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app-header {
+  background-color: #222;
+  height: 80px;
+  color: white;
+  font-family: 'Lobster'
+}
+
+.app-footer {
+  background-color: #f5f5f5;
+  height: 50px;
+  color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.app-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
