@@ -46,7 +46,9 @@ $ npm run deploy
 
 ### HTML & Open Graph
 - HTML과 Open Grpah Meta Tag를 동적으로 변경하는 방법을 찾을 수 없어 `public/index.html`을 직접 수정해야합니다. 파일을 참고하세요.
+
 ![image](https://user-images.githubusercontent.com/8033320/34060722-43838452-e228-11e7-8990-05d426bb2e29.png)
+
 - Open Graph 미리보기용 이미지는 `public/og_image.jpg`를 사용하며 `index.html`의 `og:image` Meta Property의 content를 수정하면 됩니다. 웹 상에 업로드 된 전체 URL을 입력해야됩니다.
 - Facebook에서 제공하는 [Open Grpah Debugger](https://developers.facebook.com/tools/debug/)를 통해 Open Grpah 결과를 미리 볼 수 있습니다.
 
