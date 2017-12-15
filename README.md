@@ -1,7 +1,7 @@
 # React Wedding Card
 
 ## Introduce
-- 간단한 [React.js](https://reactjs.org/) 문법 기반의 청첩장 웹 앱입니다. 제 소개로 만난 두 친구의 결혼식 선물로 만들었습니다.
+- 간단한 [React.js](https://reactjs.org/) 라이브러리와 모듈 기반의 청첩장 웹 앱입니다. 제 소개로 만난 두 친구의 결혼식 선물로 만들었습니다.
 - Sample: https://uyu423.github.io/react-wedding-card/
 
 ## Preparations
