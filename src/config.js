@@ -9,7 +9,7 @@ const gallery = [ // galley image list
 
 export default {
   global: {
-    url: 'https://uyu423.github.io/react-wedding-card/',
+    googleMapAPIKey: 'AIzaSyDSjYdBUN_NDRJQShxs0ugvMBV2goZvT2o',
     comment: {
       livere: {
         enable: true, // if false, not rendering livere comment component
@@ -21,7 +21,6 @@ export default {
         appId: '1535680996513864',
       },
     },
-    googleMapAPIKey: 'AIzaSyDSjYdBUN_NDRJQShxs0ugvMBV2goZvT2o',
   },
   title: 'Wedding Invitation', // recomanded English
   wedding: {
