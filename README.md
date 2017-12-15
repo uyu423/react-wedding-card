@@ -15,10 +15,12 @@ $ yarn
 $ npm start
 ```
 
-## Deploy
-- `create-react-app`에 내장된 기능과 `gh-pages`를 사용합니다. (`package.json`에 포함)
+## Build & Deploy (using GitHub Page)
+- 빌드하면 `build/*` 내에 정적 파일들이 생성됩니다. 정적 파일을 [GitHub Page](https://pages.github.com/) 등으로 바로 호스팅 할 수 있습니다. 자세한 내용은 [여기](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment)를 참고
+- 배포시 `create-react-app`에 내장된 기능과 `gh-pages`를 사용합니다. (`package.json`에 포함)
 - 정적 파일 배포를 위해서는 `package.json`의 `homepage` 값을 적절히 수정해야 합니다. #
 ```bash
+$ npm run build
 $ npm run deploy
 ```
 
