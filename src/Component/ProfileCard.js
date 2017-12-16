@@ -7,6 +7,7 @@ import FontAwesome from 'react-fontawesome';
 export default function ProfileCard(props) {
   const {
     name,
+    firstName,
     image,
     phone,
     facebook,
@@ -24,8 +25,8 @@ export default function ProfileCard(props) {
         </Row>
         <Row className="pt-4">
           <Col>
-            <p className="mb-1">{father},{mother}의 {position}</p>
-            <h4>{name}</h4>
+            <p className="mb-1">{father}·{mother}의 {position}</p>
+            <h4>{firstName}</h4>
           </Col>
         </Row>
         <Row className="pt-2">

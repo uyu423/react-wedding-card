@@ -1,12 +1,12 @@
 const gallery = [ // galley image list
-  require('./Image/gallery/1.png'),
-  require('./Image/gallery/2.png'),
-  require('./Image/gallery/3.png'),
-  require('./Image/gallery/4.png'),
-  require('./Image/gallery/5.png'),
-  require('./Image/gallery/6.jpg'),
-  require('./Image/gallery/7.jpg'),
-  require('./Image/gallery/8.jpg'),
+  require('./Image/gallery/1.jpeg'),
+  require('./Image/gallery/2.jpeg'),
+  require('./Image/gallery/3.jpeg'),
+  require('./Image/gallery/4.jpeg'),
+  require('./Image/gallery/5.jpeg'),
+  require('./Image/gallery/6.jpeg'),
+  require('./Image/gallery/7.jpeg'),
+  require('./Image/gallery/8.jpeg'),
 ];
 
 export default {
@@ -36,24 +36,28 @@ export default {
   },
   bridal: {
     name: '김광민',
+    firstName: '광민',
+    lastName: '김',
     image: require('./Image/bridal.png'),
     phone: '01026871577',
-    facebook: 'https://www.facebook.com/profile.php?id=100009450246267', // if false, not showing facebook icon
+    facebook: false, // if false, not showing facebook icon
     father: '김명철',
     mother: '장명화',
     position: '장남',
   },
   groom: {
     name: '강진주',
+    firstName: '진주',
+    lastName: '강',
     image: require('./Image/groom.png'),
     phone: '01051215262',
-    facebook: 'https://www.facebook.com/saznna',
+    facebook: false,
     father: '강석일',
     mother: '이상미',
     position: '장녀',
   },
   image: {
-    header: require('./Image/gallery/2.png'),
+    header: require('./Image/gallery/1.jpeg'),
     gallery: gallery.map(item => ({
       original: item,
       thumbnail: item,

@@ -14,7 +14,7 @@ export default function Place(props) {
       <Col>
         <Row className="pt-3">
           <Col>
-            <h3>{name}</h3>
+            <h3>오시는 길</h3>
           </Col>
         </Row>
         <Row className="pt-3">

@@ -14,19 +14,18 @@ export default function Header(props) {
   } = props.config;
   moment.locale('ko');
   return (
-    <Row>
+    <Row className="pb-4">
       <Col>
         <Row>
           <Col className="app-fluid">
             <div className="app-header d-flex justify-content-center align-items-center">
               <h2 className="mb-0">{title}</h2>
             </div>
-            <img className="img-fluid" src={image.header} alt="header" />
           </Col>
         </Row>
         <Row>
           <Col className="pt-5">
-            <h3>
+            <h4>
               {bridal.name}&nbsp;
               <small>
                 <span className="text-middle" style={{ color: 'red' }}>
@@ -34,10 +33,18 @@ export default function Header(props) {
                 </span>
               </small>
               &nbsp;{groom.name}
-            </h3>
-            <h3>결혼식에 초대합니다.</h3>
-            <p className="lead pt-3">{moment(wedding.at, 'YYYY-MM-DD HH:mm').format('LLLL')}</p>
-            <p className="lead">{wedding.place.name}</p>
+            </h4>
+          </Col>
+        </Row>
+        <Row className="pt-5">
+          <Col className="app-fluid">
+            <img className="img-fluid" src={image.header} alt="header" />
+          </Col>
+        </Row>
+        <Row className="pt-5">
+          <Col>
+            <h5 className="pt-3">{moment(wedding.at, 'YYYY-MM-DD HH:mm').format('LLLL')}</h5>
+            <p>{wedding.place.name}</p>
           </Col>
         </Row>
       </Col>
