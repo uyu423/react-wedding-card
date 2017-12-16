@@ -45,7 +45,7 @@ export default {
     name: '역곡동',
     image: require('./Image/groom.jpeg'),
     phone: '+821022222222',
-    facebook: 'https://www.facebook.com/saznna',
+    facebook: 'https://www.facebook.com/luckyyowu',
     father: '부천시',
     mother: '원미구',
     position: '차녀',
